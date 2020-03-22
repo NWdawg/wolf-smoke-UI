@@ -1,48 +1,12 @@
-#--Version 1.0 finished by 02/25/2020.
-#Written in python, html, CSS. Used Django framework, airnow API.
+# --Version 1.0 finished by 02/25/2020.
+# Written in python, html, CSS. Used Django framework, airnow API.
 
-# Project Titlea 
+[A Udemy refernce of the initail version](https://www.udemy.com/share/101VUOCUEccV9QQXQ=/)
 
-One Paragraph of project description goes here
+[Airnow API](https://docs.airnowapi.org)
 
-## Getting Started
+Initial version was to display air quality according to the input Zip Code. 
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+# --Version 2.0 finished by 03/10/2020
 
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+Modified a lot of the content and the template for the honeypot system
