@@ -1,7 +1,7 @@
---Version 1.0 finished by 02/25/2020.
-Written in python, html, CSS. Used Django framework, airnow API.
+#--Version 1.0 finished by 02/25/2020.
+#Written in python, html, CSS. Used Django framework, airnow API.
 
-# Project Title
+# Project Titlea 
 
 One Paragraph of project description goes here
 
