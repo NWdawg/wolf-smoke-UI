@@ -1,5 +1,5 @@
 # --Version 1.0 finished by 02/25/2020.
-# Written in python, html, CSS. Used Django framework, airnow API.
+Written in python, html, CSS. Used Django framework, airnow API.
 
 [A Udemy refernce of the initail version](https://www.udemy.com/share/101VUOCUEccV9QQXQ=/)
 
