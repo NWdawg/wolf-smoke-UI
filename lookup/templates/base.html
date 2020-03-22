@@ -29,7 +29,7 @@
 
   	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
-  <a class="navbar-brand" href="{% url 'home' %}">Weather App</a>
+  <a class="navbar-brand" href="{% url 'home' %}">Nutanix Honeypot</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -41,7 +41,19 @@
       </li> -->
 
       <li class="nav-item">
-        <a class="nav-link" href="{% url 'about' %}">About Me</a>
+        <a class="nav-link" href="{% url 'about' %}">System Introduction</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'catalog' %}">Honeypot Catalog</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'activate' %}">Activate</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'logs' %}">Check Logs</a>
       </li>
       <!-- <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -62,7 +74,7 @@
     </ul>
     <form action="{% url 'home' %}" class="form-inline my-2 my-lg-0" method="POST">
     	{% csrf_token %}
-      <input class="form-control mr-sm-2" type="search" placeholder="Enter Zipcode" aria-label="Search" name="zipcode">
+      <input class="form-control mr-sm-2" type="search" placeholder="Enter Honeypot name" aria-label="Search" name="zipcode">
       <button class="btn btn-outline-success my-2 my-sm-0" 
       type="submit">Lookup</button>
     </form>

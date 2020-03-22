@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'lookup',
+    'lookup', #whenever created a new app, have to manually add it here
 ]
 
 MIDDLEWARE = [
