@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<br/>
+
+<!-- {{ api.0 }}<br/><br/> -->
+<!-- The if clause is for error handling -->
+
+{% if zipcode %}
+	{{ zipcode }}
+{% endif %}
+
+{% if api %}
+	{% if api == "Error..." %}
+		There was an error, please try again...
+	{% else %}
+
+	<div class="jumbotron {{ yellow }}">
+  		
+  		<h1 class="display-6">WELCOME to Nutanix Honeypot Management System<br/></h1>
+
+  		<p class="lead">From the navigation bar you can choose to lookup a honeypot, watch the introduction of honeypot mechanism, or activate your own honeypots!</p>
+
+  		
+
+  		
+	 </div>
+
+		
+		
+		
+	{% endif %}
+{% endif %}
+
+<!-- {{ api.1 }}<br/><br/> -->
+
+
+
+
+{% endblock %}
